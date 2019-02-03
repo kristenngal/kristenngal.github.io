@@ -122,18 +122,29 @@ header.masthead .bg-circle-4 {
 
 #contact {
     padding-top:200px;
+    padding-bottom:100px;
+}
+
+.horizontal-list {
+    padding-top: 60px;
+}
+
+li {
+    display: inline-block !important;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(20rem + 55px);
-    padding-bottom: 10rem;
+    padding-top: calc(15rem + 55px);
+    padding-bottom: 16rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
