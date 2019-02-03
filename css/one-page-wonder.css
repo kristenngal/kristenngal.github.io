@@ -60,7 +60,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: linear-gradient(0deg, #0913ee 0%, #006fff 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -114,6 +114,14 @@ header.masthead .bg-circle-4 {
   width: 30rem;
   top: -5rem;
   right: 35%;
+}
+
+#aboutme {
+    padding-top:200px;
+}
+
+#contact {
+    padding-top:200px;
 }
 
 @media (min-width: 992px) {
